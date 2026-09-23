@@ -17,6 +17,6 @@ print(value_list)
 
 #get all items (key , value)
 items_list = []
-for item in my_dict.items():
-    items_list.append(item)
+for key,value in my_dict.items():
+    items_list.append({"key" : key , "value" : value})
 print(items_list)
