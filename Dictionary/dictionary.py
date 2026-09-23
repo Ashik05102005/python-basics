@@ -19,3 +19,12 @@ print(my_dict)
 # update using []
 my_dict["age"] = 22
 print(my_dict)
+
+my_dict.pop("place")
+print(my_dict)
+
+del my_dict["age"]
+print(my_dict)
+
+my_dict.clear()
+print(my_dict)
