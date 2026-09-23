@@ -5,6 +5,7 @@ upper_text = "ABC"
 lower_text = "abc"
 white_space = "  "
 
+
 # check all elements is alphabets or letters
 print(text.isalpha())
 
@@ -22,3 +23,8 @@ print(upper_text.isupper())
 
 # check all elements are lowercase
 print(lower_text.islower())
+
+# return length of the string 
+print(len(text))
+
+print(f"the string is in upper Case {text.upper()} and this is lowercase {text}")
