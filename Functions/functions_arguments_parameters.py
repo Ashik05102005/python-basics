@@ -25,9 +25,9 @@ def add_multiple (*numbers):
     for i in numbers:
         total += i
     return total
-
 res = add_multiple(2,5,8,7,6,3)
 print(res)
+
 
 # **kwargs -. used when we want to accept any number of keyword arguments , store all key word arguments as dictionary (key : value) 
 def student_details(**details) : 
