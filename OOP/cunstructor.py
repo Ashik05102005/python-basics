@@ -14,3 +14,4 @@ print(std1.name , std1.age )
 std1.greet()
 print(std2.name , std2.age) 
 std2.greet()
+
