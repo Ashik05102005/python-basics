@@ -5,5 +5,4 @@ def outer ():
     return inner
 func = outer()
 func()
-func()
-func()
+
