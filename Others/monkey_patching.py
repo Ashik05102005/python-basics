@@ -1,3 +1,5 @@
+import math
+
 # class Student :
 #     def __init__(self, name):
 #         self.name = name 
@@ -16,18 +18,28 @@
 
 # student1.greet()
 
-class Payment :
-    def pay(self):
-        print("Payment sucess full")
+# class Payment :
+#     def pay(self):
+#         print("Payment sucess full")
 
-def test_pay ():
-    print("fake payment")
+# def test_pay ():
+#     print("fake payment")
 
-payment = Payment()
+# payment = Payment()
 
-payment.pay()
+# payment.pay()
 
-payment.pay = test_pay
+# payment.pay = test_pay
 
-payment.pay()
+# payment.pay()
+
+def new_sqrt (num):
+    return num/2
+
+print(math.sqrt(25))
+
+math.sqrt = new_sqrt
+
+print(math.sqrt(25))
+
 
