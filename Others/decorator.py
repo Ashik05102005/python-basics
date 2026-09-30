@@ -1,8 +1,6 @@
 def decorator (func) :
     def wrapper ():
-        print("execution begins ")
-        func()
-        print("execution completed ")
+        print("Function is not working properly")
     return wrapper
 
 @decorator
