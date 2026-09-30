@@ -42,11 +42,19 @@ Book3 = Book(103, "The Alchemist", "Paulo Coelho", "Fiction", 208)
 
 print("__________________________\n")
 
+print("\n---------- Books ---------\n")
+
+print("__________________________\n")
+
 Book1.get_details()
 
 Book2.get_details()
 
 Book3.get_details()
+
+print("\n-------- Magazine --------\n")
+
+print("__________________________\n")
 
 Mag1 = Magazine(201, "Tech World", "John", 45, "September")
 
