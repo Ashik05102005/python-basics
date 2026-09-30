@@ -6,5 +6,5 @@ def decorator (func) :
 @decorator
 def greet() :
     print("hello world ")
-    
+
 greet()
