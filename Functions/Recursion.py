@@ -19,8 +19,8 @@ print("fibinocci")
 def fibinacci(n):
     if n<=1 : 
         return n
-    print(n)
+    # print(n)
     return fibinacci(n-1)+fibinacci(n-2)
-print(fibinacci(5))
+print(fibinacci(6))
 
 
