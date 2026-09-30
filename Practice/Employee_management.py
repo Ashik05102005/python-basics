@@ -12,8 +12,12 @@ class Developer(Employee):
         self.programming_lang = programming_lang
         self.experience = experience
 
+    def calculte_salary(self):
+            self.salary+=5000
+
     def get_details(self):
-         print(f" id : {self.emp_id} \n\n name : {self.name} \n\n salary : {self.salary+5000} \n\n language : {self.programming_lang} \n\n experience : {self.experience} years \n\n_________________________\n")
+         self.calculte_salary()
+         print(f" id : {self.emp_id} \n\n name : {self.name} \n\n salary : {self.salary} \n\n language : {self.programming_lang} \n\n experience : {self.experience} years \n\n_________________________\n")
 
 class Manager(Employee):
     def __init__(self ,emp_id , name , basic_salary , team_size ,department ):
@@ -21,8 +25,12 @@ class Manager(Employee):
         self.team_size = team_size
         self.department = department
 
+    def calculte_salary(self):
+        self.salary+=10000
+
     def get_details(self):
-        print(f" id : {self.emp_id} \n\n name : {self.name} \n\n salary : {self.salary+5000} \n\n team_size : {self.team_size} members \n\n department : {self.department} \n\n_________________________\n")
+        self.calculte_salary()
+        print(f" id : {self.emp_id} \n\n name : {self.name} \n\n salary : {self.salary} \n\n team_size : {self.team_size} members \n\n department : {self.department} \n\n_________________________\n")
 
 print("_________________________ \n")
 
